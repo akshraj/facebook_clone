@@ -1,0 +1,14 @@
+.sidebar{
+    float: left;
+    flex: 0.33;
+    padding: 25px 10px;
+}
+
+.sidebar__fixed{
+    position:fixed;
+    left:0rem;
+    top:5rem;
+    bottom:1.2rem;
+    z-index:999;
+    overflow-y:scroll;
+}
